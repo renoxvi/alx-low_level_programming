@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - prints the numbers from 0 to 100
  *
@@ -8,7 +9,7 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n < 10; n++)
+	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
 	}
