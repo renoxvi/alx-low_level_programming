@@ -49,7 +49,8 @@ int main(void)
 	delete_nodeint_at_index(&head, 0);
 	printf("-----------------\n");
 	delete_nodeint_at_index(&head, 0);
-	printf("-----------------\n");
+	printf("-----------------
+			\n");
 	delete_nodeint_at_index(&head, 0);
 	printf("-----------------\n");
 	delete_nodeint_at_index(&head, 0);
