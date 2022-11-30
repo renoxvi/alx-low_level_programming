@@ -13,7 +13,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	listint_t *tmp, *tmp2;
 	/* account for empty list */
 	if (*head == NULL)
-		return (-1)
+		return (-1);
 			tmp = *head;
 	/* account for deleting beginning node */
 	if (index == 0)
