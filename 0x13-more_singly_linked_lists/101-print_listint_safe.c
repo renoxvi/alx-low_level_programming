@@ -16,12 +16,12 @@ size_t print_listint_safe(const listint_t *head)
 		printf("[%p] %d\n", (void *)node, node->n);
 		temp = node;
 		node = node->next;
-		i++
-			if (temp <= node)
-			{
-				printf("-> [%p] %d\n", (void *)node, node->n);
-				break;
-			}
+		i++;
+		if (temp <= node)
+		{
+			printf("-> [%p] %d\n", (void *)node, node->n);
+			break;
+		}
 	}
 	return (i);
 }
