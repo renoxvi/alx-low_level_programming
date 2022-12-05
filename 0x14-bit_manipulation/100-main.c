@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * main- Returns printf function
+ * Return: Always returns 0
+ */
 int main(void)
 {
 	int n;
